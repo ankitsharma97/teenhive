@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body.modal-open {
+  overflow: hidden;
+}
+
+
+.wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper-item{
+  height: 100%;
+  max-width: 1280px;
+  width: 100%;
+}
+
+
+
+
+.img1{
+  transform: rotate(8.42deg);
+  -webkit-transform: rotate(8.42deg);
+  -moz-transform: rotate(8.42deg);
+  -ms-transform: rotate(8.42deg);
+  -o-transform: rotate(8.42deg);
+}
+.img2{
+  transform: rotate(10.66deg);
+  -webkit-transform: rotate(10.66deg);
+  -moz-transform: rotate(10.66deg);
+  -ms-transform: rotate(10.66deg);
+  -o-transform: rotate(10.66deg);
+}
+.img3{
+  transform: rotate(-16.087deg);
+  -webkit-transform: rotate(-16.087deg);
+  -moz-transform: rotate(-16.087deg);
+  -ms-transform: rotate(-16.087deg);
+  -o-transform: rotate(-16.087deg);
+}
+.img4{
+  transform: rotate(-15.619deg);
+  -webkit-transform: rotate(-15.619deg);
+  -moz-transform: rotate(-15.619deg);
+  -ms-transform: rotate(-15.619deg);
+  -o-transform: rotate(-15.619deg);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-horizontal {
+  display: none;
+}
+
+
+
+
+
